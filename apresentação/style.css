@@ -1,0 +1,147 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Seção de Introdução */
+#intro {
+    background-color: #006f77;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    text-align: justify;
+}
+
+#intro h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Seção de Objetivos */
+#objetivos {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#objetivos h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.objetivos-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.objetivo {
+    background-color: #00bfae;
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.objetivo h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.objetivo p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Seção de Serviços */
+#servicos {
+    background-image: url(1712072897647.jpg);
+    padding: 200px 0;
+    color: #ffffff
+}
+
+#servicos h1 {
+   font-size: 50px;
+    text-align: center;
+    margin-bottom: 150px;
+} 
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: #015868;
+    padding: 30px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.servico h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.servico p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Seção da conclusão */
+#impacto {
+    background-color: #006f77;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  text-align: justify;
+}
+
+#impacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#impacto p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
